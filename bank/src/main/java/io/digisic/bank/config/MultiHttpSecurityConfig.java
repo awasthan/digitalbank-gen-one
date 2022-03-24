@@ -104,7 +104,7 @@ public class MultiHttpSecurityConfig {
 		
 		private static final Logger LOG = LoggerFactory.getLogger(FormLoginWebSecurityConfigurerAdapter.class);
 		
-		@Value("${io.digisic.max.sessions}")
+		@Value("10000")
 		private String propMaxSessions;
 		
 		@Override
